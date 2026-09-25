@@ -87,7 +87,9 @@ Model Comparison
       ↓
 Final Pipeline
 ```
+Detailed installation, execution steps, and design decisions are available in:
 
+`/analytics/README.md`
 
 # 3. Support Assistant
 
@@ -208,7 +210,3 @@ The repository demonstrates three related but independently organized workflows:
 - Pydantic
 - Uvicorn
 - Docker
-|---|---|---|
-| `/data_pipeline` | Scraping, cleaning, SQLite loading and SQL analysis | [`data_pipeline/README.md`](data_pipeline/README.md) |
-| `/analytics` | Titanic EDA, modeling and saved ML pipeline | [`analytics/README.md`](analytics/README.md) |
-| `/support_assistant` | Zepto RAG support assistant with LangGraph and FastAPI | [`support_assistant/README.md`](support_assistant/README.md) |
