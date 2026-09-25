@@ -1,4 +1,4 @@
-# Zepto Capstone – Book Data Pipeline
+# Data Pipeline
 
 Builds a complete data pipeline using web scraping, data cleaning, data transformation, SQLite database storage, SQL queries, and Pandas operations.
 
