@@ -169,7 +169,7 @@ The repository demonstrates three related but independently organized workflows:
                        │
         ┌──────────────┼──────────────┐
         ↓              ↓              ↓
- data_pipeline     analytics    support_assistant
+ Web scraping    analytics    support_assistant
         │              │              │
    Data Pipeline      EDA & ML        RAG
         │              │              │
