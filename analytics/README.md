@@ -18,7 +18,7 @@ The combination of sex and passenger class provides a clearer picture of surviva
 Survival rates also varied across age groups. The plot shows how survival differed between children, teenagers, adults, middle-aged passengers, and seniors, providing another dimension to the survival story.
 
 
-![Residual Plot of Linear regression](analytics/plots/residual plot for linear model.png)
+![Residual Plot of Linear regression](plots/residual_plot_for_linear_model.png)
 Residual Plot Interpretation: The residual plot shows a clear non-random pattern in the residuals. The residuals form distinct patterns and their spread is not constant across the predicted fare values. Therefore, the plot provides visual evidence of heteroscedasticity, meaning that the variance of the regression errors is not constant.
 
 
