@@ -7,7 +7,13 @@ This repository contains three independent modules covering data engineering, da
 project/
 │
 ├── data_pipeline/
-│   ├── 
+│   ├──
+│   ├──EDA
+│   ├── modelling
+│   ├── titanic.csv
+│   ├── titanic_random_forest_pipeline.joblib
+│   ├── requirements.txt
+│   └── README.md
 │   └── README.md
 │
 ├── analytics/
@@ -44,22 +50,6 @@ The `/data_pipeline` module contains the complete data processing workflow, incl
 - Database loading scripts
 - Executed SQL queries and outputs
 - Module-level documentation
-
-### Main Workflow
-
-```text
-Raw Data
-   ↓
-Scraping
-   ↓
-Data Cleaning
-   ↓
-SQLite Database
-   ↓
-SQL Queries
-   ↓
-Query Results
-```
 
 Detailed installation, execution steps, and design decisions are available in:
 
@@ -100,11 +90,6 @@ Model Comparison
 Final Pipeline
 ```
 
-Detailed analysis, model comparison, interpretations, and the final recommendation are available in:
-
-`/analytics/README.md`
-
----
 
 # 3. Support Assistant
 
