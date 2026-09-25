@@ -7,13 +7,10 @@ This repository contains three independent modules covering data engineering, da
 project/
 │
 ├── data_pipeline/
-│   ├──
-│   ├──EDA
-│   ├── modelling
-│   ├── titanic.csv
-│   ├── titanic_random_forest_pipeline.joblib
+│   ├──queries
+│   ├──books.db
+│   ├── Datapipeline.ipynb
 │   ├── requirements.txt
-│   └── README.md
 │   └── README.md
 │
 ├── analytics/
@@ -105,7 +102,7 @@ The `/support_assistant` module contains a Zepto customer support assistant impl
 - Dockerfile
 - Requirements file
 - Example API call transcripts
-- RAG architecture description
+
 
 ### RAG Workflow
 
@@ -210,10 +207,6 @@ The repository demonstrates three related but independently organized workflows:
 - Pydantic
 - Uvicorn
 - Docker
-
-## Module Documentation
-
-| Module | Description | Documentation |
 |---|---|---|
 | `/data_pipeline` | Scraping, cleaning, SQLite loading and SQL analysis | [`data_pipeline/README.md`](data_pipeline/README.md) |
 | `/analytics` | Titanic EDA, modeling and saved ML pipeline | [`analytics/README.md`](analytics/README.md) |
