@@ -20,6 +20,7 @@ project/
 │   ├── titanic.csv
 │   ├── titanic_random_forest_pipeline.joblib
 │   ├── requirements.txt
+│   ├── README_TASK.md
 │   └── README.md
 │
 ├── support_assistant/
